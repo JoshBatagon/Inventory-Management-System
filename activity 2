@@ -1,0 +1,17 @@
+INSERT INTO SAPATOS(sapatos_id,sapatos_name,sapatos_price)
+VALUES(1,'HIGH CAT',500);
+
+INSERT INTO SAPATOS(sapatos_id,sapatos_name,sapatos_price)
+VALUES(2,'ZAMBA',400);
+
+INSERT INTO SAPATOS(sapatos_id,sapatos_name,sapatos_price)
+VALUES(3,'BLOCK SHOES',300);
+
+INSERT INTO SAPATOS_STORE(store_id,store_name,sapatos_id,address)
+VALUES(10,'lazada',1 ,'daraga');
+
+INSERT INTO SAPATOS_STORE(store_id,store_name,sapatos_id,address)
+VALUES(15,'shopee',2 ,'legazpi');
+
+INSERT INTO SAPATOS_STORE(store_id,store_name,sapatos_id,address)
+VALUES(20,'tiktok',3 ,'manila');
