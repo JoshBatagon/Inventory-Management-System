@@ -1,0 +1,16 @@
+5.create table authors (
+    author_id number primary key,
+    author_name varchar(50) unique,
+    birth_date DATE
+);
+
+create table books (
+book_id number primary key,
+title varchar(100) unique,
+publication_year numbber,
+author_id number,
+foreign key (author_id)references author (author_id)
+);
+
+REFLECTION;impact unique constraints and foreign key on the database;
+the foreign key ensures that every book is associated with valid author.
