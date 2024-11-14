@@ -1,0 +1,14 @@
+ALTER TABLE SAPATOS
+ADD SAPATUS_author VARCHAR2(20);
+
+ALTER TABLE SAPATOS_STORE
+add store_rating NUMBER;
+
+ALTER TABLE SAPATOS
+ADD CONSTRAINT unique_sapatos_name
+UNIQUE (sapatos_name);
+
+
+ rereflection :unique constraint  that all values  is a columns or a set of columns are distinct from other,preventing duplicate entries.the unique constraint significantly enchance the
+accuracy and usability of your data in several ways
+
