@@ -1,0 +1,7 @@
+
+
+
+4.drop table sapatos
+CASCADE CONSTRAINTS
+
+REFLECTION;cascade constraint  while droping bdable , it ensure that all records in child tables aare automatically deleted  whrnn the when tghe parent table is delated.
