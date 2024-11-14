@@ -1,0 +1,12 @@
+CREATE TABLE SAPATOS(
+    sapatos_id NUMBER PRIMARY KEY,
+    sapatos_name VARCHAR2(20),
+    sapatos_price NUMBER
+);
+CREATE TABLE SAPATOS_STORE(
+    store_id NUMBER PRIMARY KEY,
+    store_name VARCHAR2(20),
+    sapatos_id NUMBER,
+    address VARCHAR2(20),
+    FOREIGN KEY(sapatos_id) REFERENCES SAPATOS(sapatos_id)
+)
